@@ -6,7 +6,7 @@ const router=require('./routes/router')
 const jwt=require('jsonwebtoken')
 require('./db/connection')
 const server=express()
-const port=3000
+const port=3000 || process.env.PORT
 // app specific middleware
 
 
